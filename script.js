@@ -3,9 +3,7 @@ tasks = ["buy milk", "eat dinner", "nail javascript"]
 //declare elements
 var todoList = document.getElementById('todo-list');
 var addButton = document.getElementById('addBtn');
-var form = document.getElementsByTagName('form')[0];
-var input = document.getElementById('input');
-var message = document.getElementById('message');
+
 
 function strike(e){
   if(e.target.classList.contains('done')){
@@ -32,6 +30,9 @@ for(var i = 0; i<tasks.length;i++){
 }
 
 //function for adding item to list
+
+var form = document.getElementsByTagName('form')[0];
+var input = document.getElementById('input');
 function addItem(e){
   if(e.charCode === 13){
     e.preventDefault();
