@@ -1,4 +1,4 @@
-tasks = ["buy milk", "eat dinner", "nail javascript"]
+tasks = ["buy milk", "eat dinner", "nail javascript", "buy fruits"]
 
 
 //declare elements
